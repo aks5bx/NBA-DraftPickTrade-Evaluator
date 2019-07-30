@@ -1,2 +1,4 @@
 # NBA-DraftPickTrade-Evaluator
-Program to evaluate NBA trades involving draft picks
+Program to evaluate NBA trades involving draft picks. Essential idea is to predict the win shares of a certain draft position (this is done using a simple exponential regression equation) and then compare the total win shares of draft packages against the total win shares of draft packages being offered in a trade request. For example, if draft package A has X win shares in it and draft package B has Y win shares in it, if a team offers package A to another team in exchange for package B, a comparison of the X and Y values will indicate who is getting the better end of the trade. 
+
+This program is implemented in python using seaborn, scipy, numpy, and pandas. The program also contains some visualizations in order to justify the exponential regression equation chosen. In addition, the program contains some test functions to show that the functions work. 
